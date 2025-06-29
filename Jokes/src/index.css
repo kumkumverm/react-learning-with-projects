@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(93,108,103);
+}
+article{
+    /* border: 2px solid black; */
+    margin: 20px auto;
+    max-width: 70vw;
+    color:rgb(136,79,68);
+    background-color:rgb(205,   202,197);
+height:100px;
+border-radius: 55px;
+padding: 4px;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+}
+h1{
+    padding:auto;
+    color:rgb(51,32,15);
+}

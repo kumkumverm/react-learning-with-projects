@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+.contacts{
+    display: flex; 
+    gap:40px;
+    /* margin: 40px; */
+    justify-content: center;
+     /* flex-direction: column; */
+    flex-wrap: wrap;
+    max-width: 70vw;
+    /* justify-content: center; */
+    /* background-color:blue ;  */
+}
+.contact-card{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    padding: 15px;
+}
+.contact-card>img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
