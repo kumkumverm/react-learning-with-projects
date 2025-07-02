@@ -14,14 +14,15 @@ export default function App() {
     }
     const buttonElements = pads.map(pad => (
         < Pad
-            handleClick={()=>toggle(pad.id)}
+            // handleClick={()=>toggle(pad.id)}
+            handleClick={toggle}
             key={pad.id}
             id={pad.id}
             color={pad.color}
 
             on={pad.on} />
     ))
-    return (
+    return (    
         <main>
             <div className="pad-container">
                 {buttonElements}
