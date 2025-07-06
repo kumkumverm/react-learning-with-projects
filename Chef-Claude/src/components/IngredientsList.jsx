@@ -9,8 +9,8 @@ export default function IngrediantsList(props){
                 {listIng}
             </ul>
            { props.Ingredients.length>3 &&<div className="get-recipe-container">
-                <h3>Ready for a recipe</h3>
-                <p>Generate a recipe from your list of ingredients</p>
+              <div ref={props.ref}>  <h3>Ready for a recipe</h3>
+                <p>Generate a recipe from your list of ingredients</p></div>
                 <button onClick={props.getRecipe}>Get a recipe</button>
             </div>}
            </section>
